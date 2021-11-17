@@ -95,29 +95,8 @@
     font-style: var(--font-body-style);
     font-weight: var(--font-body-weight);
     }
-
-    @media screen and (min-width: 750px) {
-    body {
-    font-size: 1.6rem;
-    }
     }
     {% endstyle %}
-
-    {%- unless settings.type_header_font.system? -%}
-    <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
-
-    {%- unless settings.type_body_font.system? -%}
-    <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
-
-    {%- unless settings.type_header_font.system? -%}
-    <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
-
-    {%- unless settings.type_body_font.system? -%}
-    <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
 
     {{ content_for_header }}
   </head>
