@@ -27,7 +27,9 @@
     <link rel="stylesheet" type="text/css" href="style-mobile.css"
           media="screen and (max-width: {{ settings.theme.mobile_width }})"/>
 
-    <link rel="icon" type="image/png" href="{{ settings.theme.favicon | img_url: '32x32' }}"/>
+    {%- if settings.favicon != blank -%}
+        <link rel="icon" type="image/png" href="{{ settings.theme.favicon | img_url: '32x32' }}"/>
+    {%- endif -%}
 
     {{ content_for_header }}
 </head>
