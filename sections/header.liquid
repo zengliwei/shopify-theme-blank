@@ -2,3 +2,13 @@
     <img src="{{ section.settings.logo | img_url: image_size }}"
          alt="{{ section.settings.logo.alt | default: shop.name | escape }}"/>
 {%- endif -%}
+
+{% schema %}
+{
+	"name": "t:sections.header.name",
+	"tag": "section",
+	"settings": [
+		
+	]
+}
+{% endschema %}
