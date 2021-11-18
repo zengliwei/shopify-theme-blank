@@ -41,19 +41,19 @@
     "settings": [
       {
         "type": "image_picker",
-        "id": "favicon",
+        "id": "theme_favicon",
         "label": "t:settings_schema.theme.settings.favicon.label",
         "info": "t:settings_schema.theme.settings.favicon.info"
       },
       {
         "type": "text",
-        "id": "mobile_width",
+        "id": "theme_mobile_width",
         "label": "t:settings_schema.theme.settings.mobile_width.label",
         "info": "t:settings_schema.theme.settings.mobile_width.info"
       },
       {
         "type": "text",
-        "id": "tablet_width",
+        "id": "theme_tablet_width",
         "label": "t:settings_schema.theme.settings.tablet_width.label",
         "info": "t:settings_schema.theme.settings.tablet_width.info"
       }
