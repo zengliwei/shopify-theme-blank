@@ -586,7 +586,9 @@
     "header": {
       "name": "Header",
       "settings": {
-        "logo": "Logo"
+        "logo": {
+          "label": "Logo"
+        }
       }
     },
     "image-banner": {
