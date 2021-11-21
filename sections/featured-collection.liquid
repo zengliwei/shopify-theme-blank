@@ -29,12 +29,6 @@
             show_rating: section.settings.show_rating
           %}
         </li>
-      {%- else -%}
-        {%- for i in (1..4) -%}
-          <li class="grid__item">
-            {% render 'product-card-placeholder' %}
-          </li>
-        {%- endfor -%}
       {%- endfor -%}
     </ul>
     {%- if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 -%}
