@@ -1,7 +1,7 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "banners": {
+      "type": "banners",
       "blocks": {
         "heading": {
           "type": "heading",
@@ -57,13 +57,12 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "collection": "all"
       }
     }
   },
   "order": [
-    "image_banner",
+    "banners",
     "rich_text",
     "featured_products"
   ]
