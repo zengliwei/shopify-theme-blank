@@ -20,12 +20,9 @@
       {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
         <li>
           {% render 'product-card',
-            product_card_product: product,
+            product: product,
             show_rating: section.settings.show_rating,
-            show_secondary_image: false,
-            add_image_padding: false,
-            show_vendor: false,
-            show_image_outline: false
+            show_vendor: false
           %}
         </li>
       {%- endfor -%}
