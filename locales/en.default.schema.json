@@ -40,6 +40,17 @@
     }
   },
   "sections": {
+    "header": {
+      "name": "Header",
+      "settings": {
+        "logo": {
+          "label": "Logo image"
+        },
+        "menu": {
+          "label": "Menu"
+        }
+      }
+    },
     "apps": {
       "name": "Apps",
       "settings": {
@@ -546,17 +557,6 @@
         },
         "payment_enable": {
           "label": "Show payment icons"
-        }
-      }
-    },
-    "header": {
-      "name": "Header",
-      "settings": {
-        "logo": {
-          "label": "Logo image"
-        },
-        "menu": {
-          "label": "Menu"
         }
       }
     },
