@@ -145,5 +145,6 @@ footer > .copyright {
 }
 
 .product-card .image img {
+  display: block;
   width: 100%;
 }
