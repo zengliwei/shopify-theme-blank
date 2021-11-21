@@ -1,3 +1,13 @@
+{% comment %}
+    Renders a menu
+
+    Accepts:
+    - menu: {Object} Menu Liquid object
+
+    Usage:
+    {% render 'menu', menu: section.settings.menu %}
+{% endcomment %}
+
 {%- if section.settings.menu != blank -%}
 <nav>
   <ul>
