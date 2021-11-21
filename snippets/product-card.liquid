@@ -44,13 +44,11 @@
       <div class="vendor">{{ product_card_product.vendor }}</div>
       {%- endif -%}
 
-      {%- if product_card_product.featured_media -%}
       <h3>
         <a href="{{ product_card_product.url | default: '#' }}">
           {{ product_card_product.title | escape }}
         </a>
       </h3>
-      {%- endif -%}
 
       {%- if show_rating -%}
       {% render 'product-rating', product: product_card_product %}
