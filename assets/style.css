@@ -90,6 +90,7 @@ main {
  */
 
 footer {
+  background: #efefef;
   position: relative;
   z-index: 1;
 }
