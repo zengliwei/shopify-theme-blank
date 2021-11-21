@@ -35,8 +35,7 @@
     {% render 'price', product: product_card_product, price_class: '' %}
   </div>
 
-  <div class="card--product">
-    <div class="card__inner">
+  <div class="card-product">
       {%- if product_card_product.featured_media -%}
         {%- liquid
           assign featured_media_aspect_ratio = product_card_product.featured_media.aspect_ratio
@@ -105,5 +104,4 @@
         {%- endif -%}
       </div>
     </div>
-  </div>
 </div>
