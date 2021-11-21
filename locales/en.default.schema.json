@@ -305,35 +305,8 @@
         "name": "Blog posts"
       }
     },
-    "featured-collection": {
-      "name": "Featured Products",
-      "settings": {
-        "title": {
-          "label": "Heading"
-        },
-        "collection": {
-          "label": "Collection"
-        },
-        "products_to_show": {
-          "label": "Maximum products to show"
-        },
-        "show_view_all": {
-          "label": "Enable \"View all\" button if collection has more products than shown"
-        },
-        "header": {
-          "content": "Product Card"
-        },
-        "show_rating": {
-          "label": "Show Product Rating",
-          "info": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/sections#featured-collection-show-product-rating)"
-        }
-      },
-      "presets": {
-        "name": "Featured Products"
-      }
-    },
-    "featured-product": {
-      "name": "Featured product",
+    "featured-products": {
+      "name": "Featured Product",
       "blocks": {
         "text": {
           "name": "Text",
