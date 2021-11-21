@@ -7,6 +7,6 @@ define([
   const $header = $('header');
   
   $(document).on('scroll', function() {
-    console.log();
+    console.log($win.scrollTop());
   });
 });
