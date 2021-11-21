@@ -25,6 +25,7 @@ header {
 
 header nav ul {
   display: flex;
+  list-style: none none;
 }
 
 header nav li {
