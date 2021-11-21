@@ -554,6 +554,9 @@
       "settings": {
         "logo": {
           "label": "Logo image"
+        },
+        "menu": {
+          "label": "Menu"
         }
       }
     },
