@@ -11,26 +11,6 @@
 {% endcomment %}
 
 <div class="card-wrapper">
-  <div class="card-information">
-    {%- if show_vendor -%}
-    <div class="vendor">{{ product_card_product.vendor }}</div>
-    {%- endif -%}
-
-    {%- if product_card_product.featured_media -%}
-    <h3>
-      <a href="{{ product_card_product.url | default: '#' }}">
-        {{ product_card_product.title | escape }}
-      </a>
-    </h3>
-    {%- endif -%}
-
-    {%- if show_rating -%}
-    {% render 'product-rating', product: product_card_product %}
-    {%- endif -%}
-
-    {% render 'price', product: product_card_product, price_class: '' %}
-  </div>
-
   <div class="card-product">
     <div class="image">
       {%- liquid
@@ -57,6 +37,26 @@
            width="{{ product_card_product.featured_media.width }}"
            height="{{ product_card_product.featured_media.height }}"
            >
+    </div>
+
+    <div class="card-information">
+      {%- if show_vendor -%}
+      <div class="vendor">{{ product_card_product.vendor }}</div>
+      {%- endif -%}
+
+      {%- if product_card_product.featured_media -%}
+      <h3>
+        <a href="{{ product_card_product.url | default: '#' }}">
+          {{ product_card_product.title | escape }}
+        </a>
+      </h3>
+      {%- endif -%}
+
+      {%- if show_rating -%}
+      {% render 'product-rating', product: product_card_product %}
+      {%- endif -%}
+
+      {% render 'price', product: product_card_product, price_class: '' %}
     </div>
 
     <div class="card-on-sale">
