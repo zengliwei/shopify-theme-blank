@@ -1,4 +1,5 @@
 <form action="{{ routes.search_url }}" method="get">
+  <input type="hidden" name="options[prefix]" value="last"/>
   <input class="search__input field__input"
          id="Search-In-Modal-1"
          type="search"
@@ -18,14 +19,7 @@
          spellcheck="false"
          {%- endif -%}
          >
-  <label class="field__label" for="Search-In-Modal-1">{{ 'general.search.search' | t }}</label>
-  <input type="hidden" name="options[prefix]" value="last">
-  <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
-    <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-      <use href="#icon-search">
-        </svg>
-      </button>
-    </div>
+  <button type="submit"><span></span></button>
 
   {%- if settings.predictive_search_enabled -%}
   <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
