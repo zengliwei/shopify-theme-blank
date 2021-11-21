@@ -3,6 +3,10 @@ define([
 ], function ($) {
   'use strict';
   
-  console.log('aaa');
-  $('header');
+  const $win = $(window);
+  const $header = $('header');
+  
+  $(document).on('scroll', function() {
+    console.log();
+  });
 });
