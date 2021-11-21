@@ -1,7 +1,12 @@
-{%- if section.settings.logo != blank -%}
+<div class="logo">
+  {%- if section.settings.logo != blank -%}
     <img src="{{ section.settings.logo | img_url: image_size }}"
          alt="{{ section.settings.logo.alt | default: shop.name | escape }}"/>
-{%- endif -%}
+  {%- endif -%}
+</div>
+<div class="menu">
+  {% render "menu" %}
+</div>
 
 {% schema %}
 {
