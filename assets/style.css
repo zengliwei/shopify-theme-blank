@@ -43,6 +43,10 @@ header {
   padding: 10px;
 }
 
+header.fixed {
+  position: fixed;
+}
+
 header > .menu ul {
   display: flex;
   list-style: none none;
