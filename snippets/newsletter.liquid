@@ -43,7 +43,7 @@
   </div>
   
   {%- if form.posted_successfully? -%}
-  <h3>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+  <small>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</small>
   {%- endif -%}
   {%- endform -%}
 </div>
