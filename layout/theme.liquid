@@ -28,7 +28,7 @@
           media="screen and (max-width: {{ settings.theme_mobile_width | append: 'px' }})"/>
 
     {%- if settings.favicon != blank -%}
-        <link rel="icon" type="image/png" href="{{ settings.theme.favicon | img_url: '32x32' }}"/>
+        <link rel="icon" type="image/png" href="{{ settings.theme_favicon | img_url: '32x32' }}"/>
     {%- endif -%}
 
     <script src="{{ 'require.js' | asset_url }}"></script>
