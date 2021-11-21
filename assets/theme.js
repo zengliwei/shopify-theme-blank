@@ -7,7 +7,7 @@ define([
   const $header = $('header');
   
   $(document).on('scroll', function() {
-    if ($win.scrollTop() >= $header.outerHeight()) {
+    if ($win.scrollTop() > 0) {
       $header.addClass('fixed');
     } else {
       $header.removeClass('fixed');
