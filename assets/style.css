@@ -48,10 +48,10 @@ header {
 header.fixed {
   background: rgba(255, 255, 255, .8);
   box-shadow: 0 0 5px #999;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  position: fixed;
 }
 
 header > .menu ul {
