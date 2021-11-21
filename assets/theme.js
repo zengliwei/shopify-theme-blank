@@ -2,11 +2,12 @@ define([
   'jquery'
 ], function ($) {
   'use strict';
-  
+
   const $win = $(window);
+  const $doc = $(document);
   const $header = $('header');
-  
-  $(document).on('scroll', function() {
+
+  $doc.on('scroll', function() {
     if ($win.scrollTop() > 0) {
       $header.addClass('fixed');
     } else {
