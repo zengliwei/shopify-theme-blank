@@ -22,16 +22,16 @@ header {
   display: grid;
 }
 
-header .menu ul {
+header > .menu ul {
   display: flex;
   list-style: none none;
 }
 
-header .menu a {
+header > .menu a {
   display: block;
 }
 
-header .menu a span {
+header > .menu a span {
   display: block;
   padding: 5px 10px;
 }
