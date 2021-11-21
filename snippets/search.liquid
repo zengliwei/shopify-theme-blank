@@ -1,18 +1,5 @@
 <form action="{{ routes.search_url }}" method="get">
   <input type="hidden" name="options[prefix]" value="last"/>
-  <input type="text" name="q" value="" placeholder="{{ 'general.search.search' | t }}"
-         {%- if settings.predictive_search_enabled -%}
-         role="combobox"
-         aria-expanded="false"
-         aria-owns="predictive-search-results-list"
-         aria-controls="predictive-search-results-list"
-         aria-haspopup="listbox"
-         aria-autocomplete="list"
-         autocorrect="off"
-         autocomplete="off"
-         autocapitalize="off"
-         spellcheck="false"
-         {%- endif -%}
-         />
+  <input type="text" name="q" placeholder="{{ 'general.search.search' | t }}" />
   <button type="submit"><span>Search</span></button>
 </form>
