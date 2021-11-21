@@ -28,8 +28,13 @@ header nav ul {
   list-style: none none;
 }
 
-header nav li {
-  
+header nav a {
+  display: block;
+}
+
+header nav a span {
+  display: block;
+  padding: 5px 10px;
 }
 
 footer {
