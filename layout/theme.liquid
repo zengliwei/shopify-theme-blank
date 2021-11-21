@@ -23,9 +23,9 @@
     <link rel="stylesheet" type="text/css" href="{{ 'style.css' | asset_url }}"
           media="screen"/>
     <link rel="stylesheet" type="text/css" href="{{ 'style-tablet.css' | asset_url }}"
-          media="screen and (max-width: {{ settings.theme.tablet_width | append: 'px' }})"/>
+          media="screen and (max-width: {{ settings.theme_tablet_width | append: 'px' }})"/>
     <link rel="stylesheet" type="text/css" href="{{ 'style-mobile.css' | asset_url }}"
-          media="screen and (max-width: {{ settings.theme.mobile_width | append: 'px' }})"/>
+          media="screen and (max-width: {{ settings.theme_mobile_width | append: 'px' }})"/>
 
     {%- if settings.favicon != blank -%}
         <link rel="icon" type="image/png" href="{{ settings.theme.favicon | img_url: '32x32' }}"/>
