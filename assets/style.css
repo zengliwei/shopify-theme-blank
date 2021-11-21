@@ -99,9 +99,13 @@ footer {
   z-index: 1;
 }
 
-footer .menu ul {
+footer > .menu ul {
   display: flex;
   list-style: none none;
+}
+
+footer > .newsletter {
+  justify-self: end;
 }
 
 
