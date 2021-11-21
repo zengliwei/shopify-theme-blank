@@ -42,16 +42,16 @@ header {
   grid-template-columns: auto auto auto;
   padding: 10px;
   height: 80px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
   z-index: 3;
 }
 
 header.fixed {
   background: rgba(255, 255, 255, .8);
   box-shadow: 0 0 5px #999;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
 }
 
 header > .menu ul {
