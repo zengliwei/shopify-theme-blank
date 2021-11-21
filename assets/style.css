@@ -27,7 +27,8 @@ input[type="email"],
 input[type="text"] {
   border: 1px solid #efefef;
   border-radius: 3px;
-  padding: 5px 10px;
+  height: 36px;
+  padding: 6px 12px;
 }
 
 
