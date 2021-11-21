@@ -1,29 +1,29 @@
 {%- if section.settings.menu != blank -%}
-    <nav>
-        <ul>
-            {%- for link in section.settings.menu.links -%}
-                <li{% if link.current %} class="current"{% endif %}>
-                    <a href="{{ link.url }}"><span>{{ link.title | escape }}</span></a>
-                    {%- if link.links != blank -%}
-                        <ul>
-                            {%- for childlink in link.links -%}
-                                <li{% if childlink.current %} class="current"{% endif %}>
-                                    <a href="{{ childlink.url }}"><span>{{ childlink.title | escape }}</span></a>
-                                    {%- if childlink.links != blank -%}
-                                        <ul>
-                                            {%- for grandchildlink in childlink.links -%}
-                                                <li{% if grandchildlink.current %} class="current"{% endif %}>
-                                                    <a href="{{ grandchildlink.url }}"><span>{{ grandchildlink.title | escape }}</span></a>
-                                                </li>
-                                            {%- endfor -%}
-                                        </ul>
-                                    {%- endif -%}
-                                </li>
-                            {%- endfor -%}
-                        </ul>
-                    {%- endif -%}
-                </li>
+<nav>
+  <ul>
+    {%- for link in section.settings.menu.links -%}
+    <li{% if link.current %} class="current"{% endif %}>
+      <a href="{{ link.url }}"><span>{{ link.title | escape }}</span></a>
+      {%- if link.links != blank -%}
+      <ul>
+        {%- for childlink in link.links -%}
+        <li{% if childlink.current %} class="current"{% endif %}>
+          <a href="{{ childlink.url }}"><span>{{ childlink.title | escape }}</span></a>
+          {%- if childlink.links != blank -%}
+          <ul>
+            {%- for grandchildlink in childlink.links -%}
+            <li{% if grandchildlink.current %} class="current"{% endif %}>
+              <a href="{{ grandchildlink.url }}"><span>{{ grandchildlink.title | escape }}</span></a>
+            </li>
             {%- endfor -%}
-        </ul>
-    </nav>
+          </ul>
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+</nav>
 {%- endif -%}
