@@ -21,11 +21,11 @@
         <li>
           {% render 'product-card',
             product_card_product: product,
-            show_secondary_image: true,
+            show_rating: section.settings.show_rating,
+            show_secondary_image: false,
             add_image_padding: false,
             show_vendor: false,
-            show_image_outline: false,
-            show_rating: section.settings.show_rating
+            show_image_outline: false
           %}
         </li>
       {%- endfor -%}
