@@ -6,28 +6,25 @@
     assign more_in_collection = true
   endif
 -%}
-<div>
-  <div>
-    <h2>{{ section.settings.title | escape }}</h2>
+<div class="info">
+  <h2>{{ section.settings.title | escape }}</h2>
 
-    {%- if section.settings.show_view_all and more_in_collection -%}
-      <a href="{{ section.settings.collection.url }}">{{ 'sections.featured_collection.view_all' | t }}</a>
-    {%- endif -%}
-  </div>
-
-  <div class="product-grid">
-    <ul>
-      {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-        <li>
-          {% render 'product-card',
+  {%- if section.settings.show_view_all and more_in_collection -%}
+  <a href="{{ section.settings.collection.url }}">{{ 'sections.featured_collection.view_all' | t }}</a>
+  {%- endif -%}
+</div>
+<div class="product-grid">
+  <ul>
+    {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+    <li>
+      {% render 'product-card',
             product: product,
-            show_rating: section.settings.show_rating,
-            show_vendor: false
-          %}
-        </li>
-      {%- endfor -%}
-    </ul>
-  </div>
+      show_rating: section.settings.show_rating,
+      show_vendor: false
+      %}
+    </li>
+    {%- endfor -%}
+  </ul>
 </div>
 
 {% schema %}
