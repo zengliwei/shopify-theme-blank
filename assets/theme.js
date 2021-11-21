@@ -3,5 +3,6 @@ define([
 ], function ($) {
   'use strict';
   
-  
+  console.log('aaa');
+  $('header');
 });
