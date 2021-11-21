@@ -2,10 +2,10 @@
   Renders product rating
 
   Accepts:
-    - product: {Object} Product Liquid object (optional)
+  - product: {Object} Product Liquid object (optional)
 
   Usage:
-    {% render 'product-rating', product: product %}
+  {% render 'product-rating', product: product %}
 {% endcomment %}
 
 {%- if product.metafields.reviews.rating.value != blank -%}
