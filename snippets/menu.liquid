@@ -8,10 +8,10 @@
     {% render 'menu', menu: section.settings.menu %}
 {% endcomment %}
 
-{%- if section.settings.menu != blank -%}
+{%- if menu != blank -%}
 <nav>
   <ul>
-    {%- for link in section.settings.menu.links -%}
+    {%- for link in menu.links -%}
     <li{% if link.current %} class="current"{% endif %}>
       <a href="{{ link.url }}"><span>{{ link.title | escape }}</span></a>
       {%- if link.links != blank -%}
