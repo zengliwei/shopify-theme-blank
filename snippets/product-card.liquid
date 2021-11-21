@@ -14,8 +14,8 @@
   <div class="card-product">
     <div class="image">
       {%- liquid
-        assign featured_media_aspect_ratio = product_card_product.featured_media.aspect_ratio
-        if product_card_product.featured_media.aspect_ratio == nil
+        assign featured_media_aspect_ratio = product.featured_media.aspect_ratio
+        if product.featured_media.aspect_ratio == nil
           assign featured_media_aspect_ratio = 1
         endif
       -%}
@@ -30,18 +30,18 @@
                    {%- if products.featured_media.width >= 720 -%}{{ products.featured_media | img_url: '720x' }} 720w,{%- endif -%}
                    {%- if products.featured_media.width >= 940 -%}{{ products.featured_media | img_url: '940x' }} 940w,{%- endif -%}
                    {%- if products.featured_media.width >= 1066 -%}{{ products.featured_media | img_url: '1066x' }} 1066w,{%- endif -%}
-                   {{ product_card_product.featured_media | img_url: 'master' }} {{ product_card_product.featured_media.width }}w"
-           src="{{ product_card_product.featured_media | img_url: '533x' }}"
-           alt="{{ product_card_product.featured_media.alt | escape }}"
+                   {{ product.featured_media | img_url: 'master' }} {{ product.featured_media.width }}w"
+           src="{{ product.featured_media | img_url: '533x' }}"
+           alt="{{ product.featured_media.alt | escape }}"
            loading="lazy"
-           width="{{ product_card_product.featured_media.width }}"
-           height="{{ product_card_product.featured_media.height }}"
+           width="{{ product.featured_media.width }}"
+           height="{{ product.featured_media.height }}"
            >
     </div>
 
     <div class="info">
       {%- if show_vendor -%}
-      <div class="vendor">{{ product_card_product.vendor }}</div>
+      <div class="vendor">{{ product.vendor }}</div>
       {%- endif -%}
 
       <div class="product-name">
@@ -51,15 +51,15 @@
       </div>
 
       {%- if show_rating -%}
-      {% render 'product-rating', product: product_card_product %}
+      {% render 'product-rating', product: product %}
       {%- endif -%}
 
-      {% render 'price', product: product_card_product, price_class: '' %}
+      {% render 'price', product: product, price_class: '' %}
 
       <div class="on-sale">
-        {%- if product_card_product.available == false -%}
+        {%- if product.available == false -%}
         <span>{{ 'products.product.sold_out' | t }}</span>
-        {%- elsif products.compare_at_price > products.price and product_card_product.available -%}
+        {%- elsif products.compare_at_price > products.price and product.available -%}
         <span>{{ 'products.product.on_sale' | t }}</span>
         {%- endif -%}
       </div>
