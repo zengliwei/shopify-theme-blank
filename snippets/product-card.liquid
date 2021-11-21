@@ -32,14 +32,13 @@
   </div>
 
   <div class="card-product">
-      {%- if product_card_product.featured_media -%}
-        {%- liquid
-          assign featured_media_aspect_ratio = product_card_product.featured_media.aspect_ratio
-
-          if product_card_product.featured_media.aspect_ratio == nil
-            assign featured_media_aspect_ratio = 1
-          endif
-        -%}
+    {%- if product_card_product.featured_media -%}
+    {%- liquid
+      assign featured_media_aspect_ratio = product_card_product.featured_media.aspect_ratio
+	  if product_card_product.featured_media.aspect_ratio == nil
+        assign featured_media_aspect_ratio = 1
+      endif
+    -%}
     <div class="media">
       <img
            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, 
