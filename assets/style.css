@@ -20,12 +20,12 @@ a:hover {
 
 header {
   display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto;
 }
 
 header > .menu ul {
   display: flex;
-  align-items: center;
-  grid-template-columns: auto auto auto;
   list-style: none none;
 }
 
