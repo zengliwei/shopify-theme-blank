@@ -32,6 +32,12 @@ input[type="text"] {
   padding: 6px 12px;
 }
 
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  border: 1px solid #545454;
+}
+
 
 /**
  * Header
