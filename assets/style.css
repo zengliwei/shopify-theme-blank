@@ -45,6 +45,9 @@ header {
 
 header.fixed {
   position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 header > .menu ul {
