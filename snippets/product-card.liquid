@@ -59,7 +59,7 @@
       <div class="on-sale">
         {%- if product_card_product.available == false -%}
         <span>{{ 'products.product.sold_out' | t }}</span>
-        {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+        {%- elsif products.compare_at_price > products.price and product_card_product.available -%}
         <span>{{ 'products.product.on_sale' | t }}</span>
         {%- endif -%}
       </div>
