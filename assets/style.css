@@ -79,7 +79,7 @@ header > .search {
  */
 
 main {
-  margin-top: 80px;
+  padding: 80px 0;
   position: relative;
   z-index: 2;
 }
