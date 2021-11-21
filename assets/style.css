@@ -23,18 +23,22 @@ header {
   flex-direction: row;
 }
 
-header nav ul {
+header .menu ul {
   display: flex;
   list-style: none none;
 }
 
-header nav a {
+header .menu a {
   display: block;
 }
 
-header nav a span {
+header .menu a span {
   display: block;
   padding: 5px 10px;
+}
+
+header > .search {
+  ju
 }
 
 footer {
