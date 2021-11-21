@@ -48,6 +48,9 @@ header > .menu a span {
   padding: 5px 10px;
 }
 
+header > .menu a {
+}
+
 header > .search {
   justify-self: end;
 }
@@ -74,6 +77,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 10px;
 }
 
 .product-grid .item {
