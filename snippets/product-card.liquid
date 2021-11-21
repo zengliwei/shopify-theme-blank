@@ -44,11 +44,11 @@
       <div class="vendor">{{ product_card_product.vendor }}</div>
       {%- endif -%}
 
-      <h3>
+      <div class="product-name">
         <a href="{{ product_card_product.url | default: '#' }}">
           {{ product_card_product.title | escape }}
         </a>
-      </h3>
+      </div>
 
       {%- if show_rating -%}
       {% render 'product-rating', product: product_card_product %}
