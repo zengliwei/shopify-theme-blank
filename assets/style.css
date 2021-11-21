@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #545454;
 }
 
 input[type="text"] {
@@ -56,7 +56,6 @@ header > .menu a span {
 }
 
 header > .menu a:hover {
-  color: #545454;
 }
 
 header > .search {
