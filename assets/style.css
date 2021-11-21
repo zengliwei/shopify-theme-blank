@@ -24,6 +24,7 @@ header {
 
 header > .menu ul {
   display: flex;
+  grid-template-columns: auto auto auto;
   list-style: none none;
 }
 
