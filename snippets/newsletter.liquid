@@ -30,12 +30,10 @@
            aria-describedby="ContactFooter-success"
            {% endif %}
            />
-      <label for="NewsletterForm--{{ section.id }}">
-        {{ 'newsletter.label' | t }}
-      </label>
-      <button type="submit" name="commit" id="Subscribe">
-        <span>{{ 'newsletter.label' | t }}</span>
-      </button>
+
+    <button type="submit" name="commit" id="Subscribe">
+      <span>{{ 'newsletter.label' | t }}</span>
+    </button>
 
     {%- if form.errors -%}
     <small class="newsletter-form__message form__message" id="ContactFooter-error">
