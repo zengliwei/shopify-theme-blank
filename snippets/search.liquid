@@ -1,6 +1,5 @@
 <div class="search-modal__content" tabindex="-1">
-    <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
-      <div class="field">
+  <form action="{{ routes.search_url }}" method="get">
         <input class="search__input field__input"
                id="Search-In-Modal-1"
                type="search"
@@ -40,7 +39,7 @@
 
         <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
         {%- endif -%}
-        </form>
+  </form>
     <button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
       <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
         <use href="#icon-close">
