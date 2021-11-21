@@ -69,9 +69,6 @@ header > .menu a span {
   padding: 5px 10px;
 }
 
-header > .menu a:hover {
-}
-
 header > .search {
   justify-self: end;
 }
