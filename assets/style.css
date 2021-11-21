@@ -23,7 +23,11 @@ header {
   flex-direction: row;
 }
 
-header .menu {
+header nav ul {
+  display: flex;
+}
+
+header nav li {
   
 }
 
