@@ -71,4 +71,5 @@ footer {
 
 .product-grid {
   display: flex;
+  flex-wrap: wrap;
 }
