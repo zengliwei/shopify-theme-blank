@@ -1,4 +1,4 @@
-{%- if product_card_product.metafields.reviews.rating.value != blank -%}
+{%- if product.metafields.reviews.rating.value != blank -%}
 {% liquid
           assign rating_decimal = 0 
           assign decimal = product_card_product.metafields.reviews.rating.value.rating | modulo: 1 
