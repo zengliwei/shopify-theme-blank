@@ -19,8 +19,7 @@ a:hover {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
+  display: grid;
 }
 
 header .menu ul {
@@ -38,7 +37,7 @@ header .menu a span {
 }
 
 header > .search {
-  ju
+  justify-self: end;
 }
 
 footer {
