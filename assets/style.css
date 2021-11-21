@@ -41,13 +41,11 @@ header {
   align-items: center;
   grid-template-columns: auto auto auto;
   padding: 10px;
-}
-
-header.fixed {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
+  height: 80px;
 }
 
 header > .menu ul {
