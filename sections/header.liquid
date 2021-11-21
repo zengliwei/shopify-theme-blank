@@ -4,8 +4,9 @@
          alt="{{ section.settings.logo.alt | default: shop.name | escape }}"/>
   {%- endif -%}
 </div>
+
 <div class="menu">
-  {% render "menu" %}
+  {% render 'menu' %}
 </div>
 
 {% schema %}
