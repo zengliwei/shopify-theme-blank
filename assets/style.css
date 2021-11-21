@@ -5,11 +5,12 @@
 }
 
 body {
+  color: #545454;
   font: 14px/24px Assistant, sans-serif;
 }
 
 a {
-  color
+  color: #545454;
 }
 
 header {
