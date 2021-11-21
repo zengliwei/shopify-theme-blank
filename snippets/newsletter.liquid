@@ -34,8 +34,9 @@
         {{ 'newsletter.label' | t }}
       </label>
       <button type="submit" name="commit" id="Subscribe">
-        {% render 'icon-arrow' %}
+        <span>{% render 'icon-arrow' %}</span>
       </button>
+    
     {%- if form.errors -%}
     <small class="newsletter-form__message form__message" id="ContactFooter-error">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
     {%- endif -%}
