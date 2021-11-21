@@ -10,14 +10,19 @@
 
 {% schema %}
 {
-	"name": "t:sections.header.name",
-	"tag": "section",
-	"settings": [
-		{
-			"type": "image_picker",
-			"id": "logo",
-			"label": "t:sections.header.settings.logo.label"
-		}
-	]
+  "name": "t:sections.header.name",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "t:sections.header.settings.logo.label"
+    },
+    {
+      "type": "text",
+      "id": "menu",
+      "label": "t:sections.header.settings.menu.label"
+    }
+  ]
 }
 {% endschema %}
