@@ -22,7 +22,7 @@
     <li{% if link.current %} class="current"{% endif %}>
       <a href="{{ link.url }}"><span>{{ link.title | escape }}</span></a>
       {%- if link.links != blank -%}
-      {% render 'menu', menu: link %}
+      {% render 'menu', menu: link, level: level + 1 %}
       {%- endif -%}
     </li>
     {%- endfor -%}
