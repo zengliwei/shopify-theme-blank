@@ -55,14 +55,14 @@
       {%- endif -%}
 
       {% render 'price', product: product_card_product, price_class: '' %}
-    </div>
 
-    <div class="card-on-sale">
-      {%- if product_card_product.available == false -%}
-      <span>{{ 'products.product.sold_out' | t }}</span>
-      {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
-      <span>{{ 'products.product.on_sale' | t }}</span>
-      {%- endif -%}
+      <div class="on-sale">
+        {%- if product_card_product.available == false -%}
+        <span>{{ 'products.product.sold_out' | t }}</span>
+        {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+        <span>{{ 'products.product.on_sale' | t }}</span>
+        {%- endif -%}
+      </div>
     </div>
   </div>
 </div>
