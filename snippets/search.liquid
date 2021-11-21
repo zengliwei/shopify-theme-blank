@@ -1,5 +1,7 @@
 <form action="{{ routes.search_url }}" method="get">
   <input type="hidden" name="options[prefix]" value="last"/>
-  <input type="text" name="q" placeholder="{{ 'general.search.search' | t }}" />
+  <input type="text" name="q"
+         placeholder="{{ 'general.search.search' | t }}"
+         autocomplete="off"/>
   <button type="submit"><span>Search</span></button>
 </form>
