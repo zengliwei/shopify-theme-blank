@@ -18,6 +18,11 @@ a:hover {
   text-decoration: under-line;
 }
 
+
+/**
+ * Header
+ */
+
 header {
   display: grid;
   align-items: center;
@@ -41,6 +46,11 @@ header > .menu a span {
 header > .search {
   justify-self: end;
 }
+
+
+/**
+ * Footer
+ */
 
 footer {
 }
