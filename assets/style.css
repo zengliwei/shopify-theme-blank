@@ -55,7 +55,8 @@ header > .menu a span {
   padding: 5px 10px;
 }
 
-header > .menu a {
+header > .menu a:hover {
+  color: #545454;
 }
 
 header > .search {
