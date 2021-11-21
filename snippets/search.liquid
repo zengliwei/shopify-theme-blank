@@ -1,10 +1,6 @@
 <form action="{{ routes.search_url }}" method="get">
   <input type="hidden" name="options[prefix]" value="last"/>
-  <input class="search__input field__input"
-         id="Search-In-Modal-1"
-         type="search"
-         name="q"
-         value=""
+  <input type="text" name="q" value=""
          placeholder="{{ 'general.search.search' | t }}"
          {%- if settings.predictive_search_enabled -%}
          role="combobox"
@@ -18,7 +14,7 @@
          autocapitalize="off"
          spellcheck="false"
          {%- endif -%}
-         >
+         />
   <button type="submit"><span></span></button>
 
   {%- if settings.predictive_search_enabled -%}
