@@ -3,10 +3,17 @@
 
     Accepts:
     - menu: {Object} Menu Liquid object
+    - level: {Object} Level
 
     Usage:
     {% render 'menu', menu: section.settings.menu %}
 {% endcomment %}
+
+{% liquid
+  if level == nil
+  	assign level = 0
+  endif
+%}
 
 {%- if menu != blank -%}
 <nav>
