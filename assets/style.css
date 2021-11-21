@@ -108,6 +108,10 @@ footer > .newsletter {
   justify-self: end;
 }
 
+footer > .copyright {
+  margin-top: 20px;
+}
+
 
 /**
  * Customer
