@@ -13,12 +13,6 @@
 <div class="card-wrapper">
   <div class="card-product">
     <div class="image">
-      {%- liquid
-        assign featured_media_aspect_ratio = product.featured_media.aspect_ratio
-        if product.featured_media.aspect_ratio == nil
-          assign featured_media_aspect_ratio = 1
-        endif
-      -%}
       <img
            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, 
                   (min-width: 990px) calc((100vw - 130px) / 4), 
