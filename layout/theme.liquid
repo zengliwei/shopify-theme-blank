@@ -34,7 +34,7 @@
   <script src="{{ 'require.js' | asset_url }}"></script>
   <script>
     require.config({
-      baseUrl: '{{ '/' | asset_url | split: '?' | first | slice: -1, 1 }}',
+      baseUrl: '{{ '/' | asset_url | split: '?' | first }}',
       waitSeconds: 0
     });
   </script>
