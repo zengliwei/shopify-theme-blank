@@ -11,7 +11,7 @@
     <h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
 
     {%- if section.settings.show_view_all and section.settings.swipe_on_mobile and more_in_collection -%}
-      <a href="{{ section.settings.collection.url }}" class="link underlined-link large-up-hide">{{ 'sections.featured_collection.view_all' | t }}</a>
+      <a href="{{ section.settings.collection.url }}">{{ 'sections.featured_collection.view_all' | t }}</a>
     {%- endif -%}
   </div>
 
