@@ -107,6 +107,7 @@ header > .menu li {
 }
 
 header > .menu a {
+  color: #545454;
   display: block;
   text-decoration: none;
 }
