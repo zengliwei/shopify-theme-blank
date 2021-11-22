@@ -348,7 +348,7 @@ footer > .copyright a:hover {
 }
 
 .slick-prev {
-    left: 25px;
+    left: 20px;
 }
 
 .slick-prev:before {
@@ -356,7 +356,7 @@ footer > .copyright a:hover {
 }
 
 .slick-next {
-    right: 25px;
+    right: 20px;
 }
 
 .slick-next:before {
@@ -365,7 +365,7 @@ footer > .copyright a:hover {
 
 [dir='rtl'] .slick-prev
 {
-    right: 25px;
+    right: 20px;
     left: auto;
 }
 
@@ -375,7 +375,7 @@ footer > .copyright a:hover {
 
 [dir='rtl'] .slick-next {
     right: auto;
-    left: 25px;
+    left: 20px;
 }
 
 [dir='rtl'] .slick-next:before
