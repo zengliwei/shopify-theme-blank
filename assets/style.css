@@ -355,7 +355,7 @@ footer > .copyright a:hover {
 }
 
 .slick-next {
-    right: -25px;
+    right: 25px;
 }
 
 .slick-next:before {
@@ -364,7 +364,7 @@ footer > .copyright a:hover {
 
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 25px;
     left: auto;
 }
 
@@ -374,7 +374,7 @@ footer > .copyright a:hover {
 
 [dir='rtl'] .slick-next {
     right: auto;
-    left: -25px;
+    left: 25px;
 }
 
 [dir='rtl'] .slick-next:before
@@ -389,7 +389,7 @@ footer > .copyright a:hover {
 .slick-dots {
     display: block;
     position: absolute;
-    bottom: -25px;
+    bottom: 25px;
     width: 100%;
     list-style: none;
     text-align: center;
