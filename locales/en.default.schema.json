@@ -358,14 +358,11 @@
             "image": {
               "label": "Image"
             },
-            "heading_size": {
-              "options__1": {
-                "label": "Medium"
-              },
-              "options__2": {
-                "label": "Large"
-              },
-              "label": "Heading font size"
+            "title": {
+              "label": "Title"
+            },
+            "content": {
+              "label": "Content"
             }
           }
         }
