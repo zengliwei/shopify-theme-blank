@@ -422,7 +422,7 @@ footer > .copyright a:hover {
 }
 
 .slick-dots li button:before {
-  color: #000;
+  color: #fff;
   content: '\f111';
   font-family: Awesome;
   font-size: 20px;
