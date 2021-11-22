@@ -314,7 +314,6 @@ footer > .copyright a:hover {
   width: 20px;
   height: 20px;
   padding: 0;
-  transform: translate(0, -50%);
   z-index: 2;
 }
 
