@@ -204,6 +204,36 @@ footer > .copyright {
 
 
 /**
+ * Newsletter Box
+ */
+
+.newsletter-box {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  display: flex;
+}
+
+.newsletter-box button,
+.newsletter-box input,
+.newsletter-box input:focus {
+  background: none;
+  border: 0;
+}
+
+.newsletter-box button span {
+  display: block;
+}
+
+.newsletter-box button span:before {
+  font-family: Awesome;
+  font-size: 16px;
+  font-weight: 300;
+  content: '\f002';
+}
+
+
+/**
  * Product
  */
 
