@@ -235,6 +235,15 @@ footer > .copyright {
 
 
 /**
+ * Featured Products
+ */
+
+.featured-products .title {
+  text-align: center;
+}
+
+
+/**
  * Product
  */
 
@@ -256,13 +265,4 @@ footer > .copyright {
 .product-card .image img {
   display: block;
   width: 100%;
-}
-
-
-/**
- * Featured Products
- */
-
-.featured-products .title {
-  text-align: center;
 }
