@@ -272,6 +272,10 @@ footer > .copyright a:hover {
   position: relative;
 }
 
+.carousel .image {
+  position: absolute;
+}
+
 
 /**
  * Product
