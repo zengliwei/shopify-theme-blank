@@ -251,6 +251,7 @@ footer > .copyright a:hover {
  */
 
 .featured-products .title {
+  margin-bottom: 15px;
   text-align: center;
 }
 
