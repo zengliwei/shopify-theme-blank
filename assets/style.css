@@ -268,7 +268,8 @@ footer > .copyright a:hover {
  * Carousel
  */
 
-.carousel {
+.carousel .item {
+  position: relative;
 }
 
 
