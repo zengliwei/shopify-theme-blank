@@ -340,11 +340,11 @@ footer > .copyright a:hover {
 
 .slick-prev:before,
 .slick-next:before {
+  color: #fff;
   font-family: Awesome;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 38px;
   opacity: .75;
-  color: white;
 }
 
 .slick-prev {
