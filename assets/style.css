@@ -286,16 +286,18 @@ footer > .copyright a:hover {
 }
 
 .carousel .item .title {
-  position: absolute;
+  color: #fff;
   font-size: 24px;
   left: 100px;
+  position: absolute;
   top: 50px;
   z-index: 2;
 }
 
 .carousel .item .content {
-  position: absolute;
+  color: #fff;
   left: 100px;
+  position: absolute;
   top: 150px;
   z-index: 2;
 }
