@@ -366,7 +366,7 @@
             },
             "html_content": {
               "label": "HTML Content",
-              "info": "Title and content will be ignored if HTML content is set"
+              "info": "Title and Content will be ignored if HTML content is set"
             },
             "link": {
               "label": "Link"
