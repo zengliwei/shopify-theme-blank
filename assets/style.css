@@ -300,9 +300,6 @@ footer > .copyright a:hover {
   z-index: 2;
 }
 
-.slick-loading .slick-list {
-}
-
 .slick-list {
   z-index: 1;
 }
@@ -345,7 +342,7 @@ footer > .copyright a:hover {
 .slick-next:before {
   color: #000;
   font-family: Awesome;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 38px;
   opacity: .75;
 }
