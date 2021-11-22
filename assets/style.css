@@ -391,11 +391,11 @@ footer > .copyright a:hover {
 
 .slick-dots {
   display: block;
-  position: absolute;
   bottom: 25px;
-  width: 100%;
-  list-style: none;
+  position: absolute;
   text-align: center;
+  width: 100%;
+  z-index: 2;
 }
 
 .slick-dots li {
