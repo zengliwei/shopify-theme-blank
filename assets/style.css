@@ -349,7 +349,7 @@ footer > .copyright a:hover {
 }
 
 .slick-prev:before {
-    content: '←';
+    content: '\f053';
 }
 
 .slick-next {
@@ -377,7 +377,7 @@ footer > .copyright a:hover {
 
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '\f053';
 }
 
 .slick-dotted.slick-slider {
