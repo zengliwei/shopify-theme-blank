@@ -57,8 +57,11 @@
         "menu": {
           "label": "Menu"
         },
+        "newsletter_placeholder": {
+          "label": "Placeholder"
+        },
         "header": {
-          "newsletter_placeholder": "Placeholder"
+          "newsletter": "Newsletter"
         }
       }
     },
