@@ -38,8 +38,8 @@
     {%- endif -%}
 
     <div class="product-name">
-      <a href="{{ products.url | default: '#' }}">
-        {{ products.title | escape }}
+      <a href="{{ product.url | default: '#' }}">
+        {{ product.title | escape }}
       </a>
     </div>
 
@@ -51,9 +51,9 @@
 
     <div class="on-sale">
       {%- if product.available == false -%}
-      <span>{{ 'products.product.sold_out' | t }}</span>
-      {%- elsif products.compare_at_price > products.price and product.available -%}
-      <span>{{ 'products.product.on_sale' | t }}</span>
+      <span>{{ 'product.product.sold_out' | t }}</span>
+      {%- elsif product.compare_at_price > products.price and product.available -%}
+      <span>{{ 'product.product.on_sale' | t }}</span>
       {%- endif -%}
     </div>
   </div>
