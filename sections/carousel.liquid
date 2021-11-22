@@ -35,6 +35,12 @@
   {% endfor %}
 </div>
 
+<script>
+  require(['jquery', 'carousel'], function($) {
+    $('#{{ section.id }} .items').slick();
+  });
+</script>
+
 {% schema %}
 {
   "name": "t:sections.carousel.name",
