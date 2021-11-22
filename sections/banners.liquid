@@ -2,6 +2,7 @@
   {% for block in section.blocks %}
     <div class="item">
       <div class="image">
+        <a href="{{ block.settings.link }}">
         <img srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | img_url: '375x' }} 375w,{%- endif -%}
             {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
             {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
@@ -16,6 +17,7 @@
             alt="{{ block.settings.image.alt | escape }}"
             loading="lazy"
           />
+        </a>
       </div>
       {%- if block.settings.html_content == blank -%}
       <div class="title">
