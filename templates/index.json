@@ -8,14 +8,25 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
             "link": "",
-            "title": "This is a test",
+            "title": "Banner 01",
             "content": "<p>Lonas ajdfs a ehakf fhakjfhka sadfhakfha aksdf akdsjfhakgk xcvuii hvxrtjwr nwrqrj xcvhh fff rhsvra<\/p>",
+            "html_content": ""
+          }
+        },
+        "1dbbd060-4bd2-4cfd-9262-092711896546": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/retail-shopping-package.jpg",
+            "link": "",
+            "title": "Banner 02",
+            "content": "",
             "html_content": ""
           }
         }
       },
       "block_order": [
-        "3586dd23-1008-45f6-8a32-f21c4bd2c227"
+        "3586dd23-1008-45f6-8a32-f21c4bd2c227",
+        "1dbbd060-4bd2-4cfd-9262-092711896546"
       ],
       "settings": {
       }
