@@ -5,9 +5,9 @@ define([
 
   const $win = $(window);
   const $doc = $(document);
-  
+
   $doc.ready(function() {
-    
+
     const $header = $('header');
 
     const updateHeader = function() {
