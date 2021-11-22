@@ -1,7 +1,9 @@
 <div class="logo">
   {%- if section.settings.logo != blank -%}
-    <img src="{{ section.settings.logo | img_url: image_size }}"
-         alt="{{ section.settings.logo.alt | default: shop.name | escape }}"/>
+  <img src="{{ section.settings.logo | img_url: image_size }}"
+       alt="{{ section.settings.logo.alt | default: shop.name | escape }}"/>
+  {%- else -%}
+  {{ shop.name | link_to: routes.root_url }}
   {%- endif -%}
 </div>
 
