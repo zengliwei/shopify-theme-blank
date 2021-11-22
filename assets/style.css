@@ -112,6 +112,10 @@ header > .menu a {
   text-decoration: none;
 }
 
+header > .menu a:hover {
+  color: #000;
+}
+
 header > .menu a span {
   display: block;
   padding: 5px 10px;
