@@ -347,7 +347,7 @@ footer > .copyright a:hover {
 }
 
 .slick-prev {
-    left: -25px;
+    left: 25px;
 }
 
 .slick-prev:before {
