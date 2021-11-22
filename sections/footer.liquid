@@ -3,7 +3,7 @@
 </div>
 
 <div class="newsletter">
-  {% render 'newsletter' %}
+  {% render 'newsletter', placeholder: section.settings.newsletter_placeholder %}
 </div>
 
 <div class="copyright">
@@ -20,6 +20,16 @@
       "id": "menu",
       "label": "t:sections.footer.settings.menu.label",
       "default": "footer"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.settings.header.content"
+    },
+    {
+      "type": "text",
+      "id": "newsletter_placeholder",
+      "label": "t:sections.footer.settings.newsletter_placeholder.label",
+      "default": "Subscribe Email"
     }
   ]
 }
