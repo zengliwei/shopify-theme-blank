@@ -1,21 +1,7 @@
 {
   "sections": {
-    "banners": {
-      "type": "banners",
-      "blocks": {
-        "2a79b66c-76a2-41b1-b17f-1eb90eecc4e3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
-            "title": "This is a test",
-            "content": "aaaaaa",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "2a79b66c-76a2-41b1-b17f-1eb90eecc4e3"
-      ],
+    "carousel": {
+      "type": "carousel",
       "settings": {
       }
     },
@@ -32,7 +18,7 @@
     }
   },
   "order": [
-    "banners",
+    "carousel",
     "featured_products"
   ]
 }
