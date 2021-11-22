@@ -257,3 +257,12 @@ footer > .copyright {
   display: block;
   width: 100%;
 }
+
+
+/**
+ * Featured Products
+ */
+
+.featured-products .title {
+  text-align: center;
+}
