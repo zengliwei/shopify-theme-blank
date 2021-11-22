@@ -174,6 +174,7 @@ footer > .copyright {
 
 .search-box button span:before {
   font-family: Awesome;
+  font-size: 16px;
   font-weight: 300;
   content: '\f002';
 }
