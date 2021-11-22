@@ -16,4 +16,5 @@ define([
   };
 
   $doc.on('scroll', updateHeader);
+  updateHeader();
 });
