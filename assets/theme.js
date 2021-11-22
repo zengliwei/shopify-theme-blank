@@ -5,17 +5,18 @@ define([
 
   const $win = $(window);
   const $doc = $(document);
-  const $header = $('header');
   
-  const updateHeader = function() {
-    if ($win.scrollTop() > 0) {
-      $header.addClass('fixed');
-    } else {
-      $header.removeClass('fixed');
-    }
-  };
+  $doc.ready(function(){
+    const $header = $('header');
 
-  updateHeader();
+    const updateHeader = function() {
+      if ($win.scrollTop() > 0) {
+        $header.addClass('fixed');
+      } else {
+        $header.removeClass('fixed');
+      }
+    };
+  });
   
   $doc.on('scroll', updateHeader);
 });
