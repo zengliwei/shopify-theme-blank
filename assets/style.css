@@ -281,6 +281,10 @@ footer > .copyright a:hover {
   z-index: 1;
 }
 
+.carousel .item .image img {
+  width: 100%;
+}
+
 .carousel .item .image a {
   display: block;
 }
