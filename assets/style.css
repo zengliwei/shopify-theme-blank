@@ -423,7 +423,7 @@ footer > .copyright a:hover {
 .slick-dots li button:before {
     color: black;
     content: '•';
-    font-family: 'slick';
+    font-family: Awesome;
     opacity: .25;
     position: absolute;
     top: 0;
