@@ -78,7 +78,7 @@ header {
   display: grid;
   align-items: center;
   grid-template-columns: 300px auto auto;
-  padding: 10px;
+  padding: 10px 20px;
   height: 80px;
   position: fixed;
   left: 0;
