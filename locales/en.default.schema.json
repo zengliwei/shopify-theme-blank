@@ -353,7 +353,7 @@
       "name": "Image banner",
       "blocks": {
         "heading": {
-          "name": "Heading",
+          "name": "Image",
           "settings": {
             "heading": {
               "label": "Heading"
