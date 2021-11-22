@@ -64,6 +64,7 @@ button {
   background: #efefef;
   border: 1px solid #e0e0e0;
   border-radius: 3px;
+  cursor: pointer;
   font: 14px/24px Assistant, sans-serif;
   padding: 5px 16px;
 }
