@@ -2,6 +2,20 @@
  * Global
  */
 
+@font-face {
+  font-family: Awesome;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fa-regular-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: Awesome;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fa-solid-900.woff2') format('woff2');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
