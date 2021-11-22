@@ -170,11 +170,11 @@ footer > .copyright {
 
 .search-box button span {
   display: block;
-  text-indent: -9999px;
 }
 
 .search-box button span:before {
   font-family: Awesome;
+  font-weight: 300;
   content: '\f002';
 }
 
