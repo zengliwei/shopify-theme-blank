@@ -364,6 +364,9 @@
             "content": {
               "label": "Content"
             },
+            "html_content": {
+              "label": "HTML Content"
+            },
             "link": {
               "label": "Link"
             }
