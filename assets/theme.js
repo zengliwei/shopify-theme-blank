@@ -14,7 +14,7 @@ define([
       $header.removeClass('fixed');
     }
   };
-
-  $doc.on('scroll', updateHeader);
   updateHeader();
+  
+  $doc.on('scroll', updateHeader);
 });
