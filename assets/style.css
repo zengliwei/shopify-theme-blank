@@ -177,6 +177,10 @@ footer > .copyright {
   margin-top: 50px;
 }
 
+footer > .copyright a {
+  color: #545454;
+}
+
 
 /**
  * Search Box
