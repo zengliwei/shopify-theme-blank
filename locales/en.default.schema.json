@@ -352,10 +352,10 @@
     "banners": {
       "name": "Image banner",
       "blocks": {
-        "heading": {
+        "item": {
           "name": "Item",
           "settings": {
-            "heading": {
+            "image": {
               "label": "Image"
             },
             "heading_size": {
