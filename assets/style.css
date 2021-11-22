@@ -299,6 +299,10 @@ footer > .copyright a:hover {
 .slick-loading .slick-list {
 }
 
+.slick-list {
+  z-index: 1;
+}
+
 .slick-prev,
 .slick-next {
   background: transparent;
