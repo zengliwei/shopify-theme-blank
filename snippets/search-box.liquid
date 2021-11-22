@@ -1,11 +1,13 @@
-<form action="{{ routes.search_url }}" method="get">
-  <input type="hidden" name="options[prefix]" value="last"/>
-  <div class="input-wrapper">
-    <input type="text" name="q"
-           placeholder="{{ 'general.search.search' | t }}"
-           autocomplete="off"/>
-  </div>
-  <div class="button-wrapper">
-  	<button type="submit"><span>Search</span></button>
-  </div>
-</form>
+<div class="search-box">
+  <form action="{{ routes.search_url }}" method="get">
+    <input type="hidden" name="options[prefix]" value="last"/>
+    <div class="input-wrapper">
+      <input type="text" name="q"
+             placeholder="{{ 'general.search.search' | t }}"
+             autocomplete="off"/>
+    </div>
+    <div class="button-wrapper">
+      <button type="submit"><span>Search</span></button>
+    </div>
+  </form>
+</div>
