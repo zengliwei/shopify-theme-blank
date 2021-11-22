@@ -1,12 +1,12 @@
 {
-    "current": {
-        "theme_mobile_width": "768",
-        "theme_tablet_width": "1024"
-    },
-    "presets": {
-        "Default": {
-            "theme_mobile_width": "768",
-            "theme_tablet_width": "1024"
-        }
+  "current": {
+    "theme_mobile_width": "768",
+    "theme_tablet_width": "1024"
+  },
+  "presets": {
+    "Default": {
+      "theme_mobile_width": "768",
+      "theme_tablet_width": "1024"
     }
+  }
 }
