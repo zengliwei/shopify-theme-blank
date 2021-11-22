@@ -52,6 +52,12 @@ input[type="text"]:focus {
   border: 1px solid #545454;
 }
 
+button {
+  background: #efefef;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+}
+
 
 /**
  * Header
@@ -149,7 +155,7 @@ footer > .copyright {
   border: 0;
 }
 
-.search-box button {
+.search-box button span {
   
 }
 
