@@ -375,6 +375,32 @@
         }
       }
     },
+    "carousel": {
+      "name": "Carousel",
+      "blocks": {
+        "item": {
+          "name": "Item",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "title": {
+              "label": "Title"
+            },
+            "content": {
+              "label": "Content"
+            },
+            "html_content": {
+              "label": "HTML Content",
+              "info": "Title and Content will be ignored if HTML content is set"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      }
+    },
     "image-with-text": {
       "name": "Image with text",
       "settings": {
