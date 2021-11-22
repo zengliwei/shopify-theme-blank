@@ -301,16 +301,17 @@ footer > .copyright a:hover {
 
 .slick-prev,
 .slick-next {
-    background: transparent;
-    color: transparent;
-    border: 0;
-    display: block;
-    position: absolute;
-    top: 50%;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    transform: translate(0, -50%);
+  background: transparent;
+  color: transparent;
+  border: 0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  z-index: 2;
 }
 
 .slick-prev:hover,
