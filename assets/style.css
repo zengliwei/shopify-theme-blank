@@ -107,20 +107,19 @@ header > .menu li {
 }
 
 header > .menu a {
-  color: #545454;
+  color: #999;
   display: block;
   text-decoration: none;
 }
 
 header > .menu a:hover,
 header > .menu .current > a {
-  border-bottom: 1px solid #000;
   color: #000;
 }
 
 header > .menu a span {
   display: block;
-  padding: 5px 0;
+  padding: 5px 10px;
 }
 
 header > .search {
