@@ -310,9 +310,7 @@ footer > .copyright a:hover {
   border: 0;
   display: block;
   position: absolute;
-  top: 50%;
-  width: 20px;
-  height: 20px;
+  top: calc(50% - 11px);
   padding: 0;
   z-index: 2;
 }
