@@ -6,7 +6,7 @@ define([
   const $win = $(window);
   const $doc = $(document);
   
-  $doc.ready(function(){
+  $doc.ready(function() {
     
     const $header = $('header');
 
@@ -17,6 +17,8 @@ define([
         $header.removeClass('fixed');
       }
     };
+
+    updateHeader();
 
     $doc.on('scroll', updateHeader);
 
