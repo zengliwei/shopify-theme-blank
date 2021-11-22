@@ -398,9 +398,7 @@ footer > .copyright a:hover {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  height: 20px;
-  width: 20px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .slick-dots li button {
