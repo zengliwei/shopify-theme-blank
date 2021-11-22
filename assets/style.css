@@ -155,7 +155,7 @@ footer > .copyright {
 }
 
 .search-box input,
-.search-box input:hover {
+.search-box input:focus {
   border: 0;
 }
 
