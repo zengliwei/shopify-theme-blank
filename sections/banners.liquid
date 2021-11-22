@@ -24,7 +24,7 @@
 </div>
 
 {% for block in section.blocks %}
-  <div class="slide" {{ block.shopify_attributes }}>
+  <div class="item">
     {{ block.settings.image | image_url: width: 2048 | image_tag }}
   </div>
 {% endfor %}
