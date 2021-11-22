@@ -17,15 +17,18 @@
             loading="lazy"
           />
       </div>
+      {%- if block.settings.html_content == '' -%}
       <div class="title">
         {{ block.settings.title | escape }}
       </div>
       <div class="content">
         {{ block.settings.content }}
       </div>
+      {%- else -%}
       <div class="html_content">
         {{ block.settings.html_content }}
       </div>
+      {%- endif -%}
     </div>
   {% endfor %}
 </div>
