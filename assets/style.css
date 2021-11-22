@@ -339,7 +339,7 @@ footer > .copyright a:hover {
 
 .slick-prev:before,
 .slick-next:before {
-  color: #545454;
+  color: #000;
   font-family: Awesome;
   font-weight: bold;
   font-size: 38px;
