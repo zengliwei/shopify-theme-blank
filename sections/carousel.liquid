@@ -41,6 +41,10 @@
   });
 </script>
 
+{% stylesheet %}
+@import '{{ carousel.css | asset_url }}';
+{% endstylesheet %}
+
 {% schema %}
 {
   "name": "t:sections.carousel.name",
