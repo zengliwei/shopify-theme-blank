@@ -353,10 +353,10 @@
       "name": "Image banner",
       "blocks": {
         "heading": {
-          "name": "Image",
+          "name": "Item",
           "settings": {
             "heading": {
-              "label": "Heading"
+              "label": "Image"
             },
             "heading_size": {
               "options__1": {
