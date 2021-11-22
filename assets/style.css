@@ -162,7 +162,8 @@ footer > .copyright {
 }
 
 .search-box button span {
-  
+  display: block;
+  text-indent: -9999px;
 }
 
 
