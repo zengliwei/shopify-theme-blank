@@ -3,18 +3,18 @@
     "banners": {
       "type": "banners",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "2a79b66c-76a2-41b1-b17f-1eb90eecc4e3": {
+          "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
-            "title": "",
-            "content": "",
+            "title": "This is a test",
+            "content": "aaaaaa",
             "link": ""
           }
         }
       },
       "block_order": [
-        "heading"
+        "2a79b66c-76a2-41b1-b17f-1eb90eecc4e3"
       ],
       "settings": {
       }
