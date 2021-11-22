@@ -155,6 +155,10 @@ footer > .menu ul {
   list-style: none none;
 }
 
+footer > .menu a {
+  color: #545454;
+}
+
 footer > .newsletter {
   justify-self: end;
 }
