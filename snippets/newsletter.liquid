@@ -6,8 +6,6 @@
 {% endcomment %}
 
 <div class="newsletter">
-  <h3>{{ section.settings.newsletter_heading | escape }}</h3>
-
   {%- form 'customer', id: 'ContactFooter' -%}
   <input type="hidden" name="contact[tags]" value="newsletter"/>
   <div class="field">
