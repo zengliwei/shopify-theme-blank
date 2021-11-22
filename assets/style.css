@@ -434,7 +434,6 @@ footer > .copyright a:hover {
 }
 
 .slick-dots li.slick-active button:before {
-  color: black;
   opacity: .75;
 }
 
