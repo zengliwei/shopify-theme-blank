@@ -254,6 +254,10 @@ footer > .copyright a:hover {
   text-align: center;
 }
 
+.featured-products .title h3 {
+  font-size: 24px;
+}
+
 
 /**
  * Product
