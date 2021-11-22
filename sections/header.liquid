@@ -3,7 +3,7 @@
   <img src="{{ section.settings.logo | img_url: image_size }}"
        alt="{{ section.settings.logo.alt | default: shop.name | escape }}"/>
   {%- else -%}
-  {{ shop.name | link_to: routes.root_url }}
+  <span>{{ shop.name | link_to: routes.root_url }}</span>
   {%- endif -%}
 </div>
 
