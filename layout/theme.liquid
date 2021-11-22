@@ -44,7 +44,7 @@
   {{ content_for_header }}
 </head>
 
-<body>
+<body class="{{ request.page_type | replace: '/', '-' }}">
 
 {% section 'header' %}
 
