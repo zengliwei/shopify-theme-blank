@@ -334,6 +334,9 @@
         "show_view_all": {
           "label": "Enable \"View all\" button if collection has more products than shown"
         },
+        "view_all_label": {
+          "label": "View All Label"
+        },
         "header": {
           "content": "Product Card"
         },
