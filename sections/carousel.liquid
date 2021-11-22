@@ -37,7 +37,10 @@
 
 <script>
   require(['jquery', 'carousel'], function($) {
-    $('#shopify-section-{{ section.id }} .items').slick();
+    $('#shopify-section-{{ section.id }} .items').slick({
+      adaptiveHeight: true,
+      autoplay: true
+    });
   });
 </script>
 
