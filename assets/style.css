@@ -277,6 +277,14 @@ footer > .copyright a:hover {
   z-index: 1;
 }
 
+.carousel .item .image a {
+  display: block;
+}
+
+.carousel .item .image img {
+  display: block;
+}
+
 .carousel .item .title {
   position: absolute;
   z-index: 2;
