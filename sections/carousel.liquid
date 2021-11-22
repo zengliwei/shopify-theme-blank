@@ -41,13 +41,7 @@
   });
 </script>
 
-{% stylesheet %}
-@import url('{{ carousel.css | asset_url }}');
-
-section {
-  display:block;
-}
-{% endstylesheet %}
+{{ 'carousel.css' | asset_url | stylesheet_tag }}
 
 {% schema %}
 {
