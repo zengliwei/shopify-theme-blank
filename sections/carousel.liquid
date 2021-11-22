@@ -42,10 +42,10 @@
 </script>
 
 {% stylesheet %}
-@import url('carousel.css');
+@import url('{{ carousel.css | asset_url }}');
 
 section {
-  display: block;
+  display:block;
 }
 {% endstylesheet %}
 
