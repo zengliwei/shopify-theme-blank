@@ -10,7 +10,7 @@
   <h2>{{ section.settings.title | escape }}</h2>
 
   {%- if section.settings.show_view_all and more_in_collection -%}
-  <div class="view-all">[ <a href="{{ section.settings.collection.url }}">{{ 'sections.settings.view_all' | t }}</a> ]</div>
+  <div class="view-all">[ <a href="{{ section.settings.collection.url }}">{{ 'sections.settings.view_all_label' | t }}</a> ]</div>
   {%- endif -%}
 </div>
 <div class="product-grid">
@@ -36,6 +36,12 @@
       "id": "title",
       "label": "t:sections.featured-products.settings.title.label",
       "default": "Featured Collection"
+    },
+    {
+      "type": "text",
+      "id": "view_all_label",
+      "label": "t:sections.featured-products.settings.view_all_label.label",
+      "default": "View All"
     },
     {
       "type": "collection",
