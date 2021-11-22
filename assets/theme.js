@@ -7,6 +7,7 @@ define([
   const $doc = $(document);
   
   $doc.ready(function(){
+    
     const $header = $('header');
 
     const updateHeader = function() {
@@ -16,7 +17,9 @@ define([
         $header.removeClass('fixed');
       }
     };
+
+    $doc.on('scroll', updateHeader);
+
   });
-  
-  $doc.on('scroll', updateHeader);
+
 });
