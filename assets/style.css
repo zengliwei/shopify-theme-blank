@@ -427,22 +427,16 @@ footer > .copyright a:hover {
 }
 
 .slick-dots li button:before {
+    color: black;
     font-family: 'slick';
-    font-size: 6px;
-    line-height: 20px;
-
     position: absolute;
     top: 0;
     left: 0;
-
     width: 20px;
     height: 20px;
-
     content: '•';
     text-align: center;
-
     opacity: .25;
-    color: black;
 }
 
 .slick-dots li.slick-active button:before {
