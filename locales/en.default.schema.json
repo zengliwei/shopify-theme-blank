@@ -363,6 +363,9 @@
             },
             "content": {
               "label": "Content"
+            },
+            "link": {
+              "label": "Link"
             }
           }
         }
