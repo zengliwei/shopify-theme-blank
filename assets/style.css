@@ -258,6 +258,10 @@ footer > .copyright a:hover {
   font-size: 24px;
 }
 
+.featured-products .title .view-all {
+  margin-top: 10px;
+}
+
 
 /**
  * Product
