@@ -56,6 +56,9 @@
       "settings": {
         "menu": {
           "label": "Menu"
+        },
+        "header": {
+          "newsletter_placeholder": "Placeholder"
         }
       }
     },
