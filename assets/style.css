@@ -320,8 +320,8 @@ footer > .copyright a:hover {
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
-    color: transparent;
     background: transparent;
+    color: transparent;
 }
 
 .slick-prev:hover:before,
