@@ -17,7 +17,7 @@
             loading="lazy"
           />
       </div>
-      {%- if block.settings.html_content == '' -%}
+      {%- if block.settings.html_content == blank -%}
       <div class="title">
         {{ block.settings.title | escape }}
       </div>
