@@ -273,7 +273,7 @@ footer > .copyright a:hover {
 }
 
 .carousel .item .image {
-  position: absolute;
+  position: relative;
   z-index: 1;
 }
 
