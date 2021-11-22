@@ -154,7 +154,8 @@ footer > .copyright {
   padding: 6px 12px;
 }
 
-.search-box input {
+.search-box input,
+.search-box input:hover {
   border: 0;
 }
 
