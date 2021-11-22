@@ -166,6 +166,11 @@ footer > .copyright {
   text-indent: -9999px;
 }
 
+.search-box button span:before {
+  font-family: Awesome;
+  content: '';
+}
+
 
 /**
  * Product
