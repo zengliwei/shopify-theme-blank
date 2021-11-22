@@ -281,10 +281,6 @@ footer > .copyright a:hover {
   display: block;
 }
 
-.carousel .item .image img {
-  display: block;
-}
-
 .carousel .item .title {
   position: absolute;
   font-size: 24px;
