@@ -366,9 +366,6 @@
             }
           }
         }
-      },
-      "presets": {
-        "name": "Image banner"
       }
     },
     "image-with-text": {
